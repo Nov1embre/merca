@@ -13,7 +13,7 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { ContacteConComponent } from './componentes/contacte-con/contacte-con.component';
 import { PieComponent } from './componentes/pie/pie.component';
 import { WorksComponent } from './componentes/works/works.component';
-
+import {HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,8 @@ import { WorksComponent } from './componentes/works/works.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

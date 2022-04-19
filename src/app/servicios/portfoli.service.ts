@@ -10,7 +10,7 @@ export class PortfoliService {
   constructor( private http : HttpClient) { }
 
   obtenerDatos(): Observable<any>{
-    return this.http.get('.assets/data/datat.jsons');
+    return this.http.get('C:\Users\facundo\Desktop\mercado\merca\src\assets\data\data.json');
     
   }
 }
